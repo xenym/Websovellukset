@@ -1,0 +1,90 @@
+/* Default light theme */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #76c7c0;
+  --box-bg: lightblue;
+  --grid-bg: lightgreen;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header, footer {
+  background-color: transparent;
+  color: var(--text-color);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--accent-color);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.box {
+  background-color: var(--box-bg);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid var(--accent-color);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 20px 0;
+}
+
+.grid-item {
+  background-color: var(--grid-bg);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid var(--accent-color);
+}
+
+.responsive-box {
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+      background-color: lightcoral;
+  }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+      background-color: lightseagreen;
+  }
+}

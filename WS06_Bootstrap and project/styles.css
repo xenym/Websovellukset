@@ -20,8 +20,11 @@ body {
 }
 .nav-link {font-size: 1.1em !important;}
 .carousel-inner img {
-    height: 300px;
-    object-fit: cover;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: contain;    
 }
 .recipe img{
     width: 500px;
@@ -39,12 +42,20 @@ body {
     line-height: 1.4;
     margin-bottom: 4px;
   }
-.body {
-    padding-bottom: 500px;
+  /* Стили по умолчанию (для десктопа) */
+body {
+    font-size: 18px;
   }
-.footer {
-    margin-top: 100px;
-  }  
-
+    @media (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+ @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
   
   

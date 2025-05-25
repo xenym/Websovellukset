@@ -2,6 +2,7 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Snacks - Cooking</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
@@ -9,8 +10,9 @@
     <body>
         <nav class="navbar sticky-top bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="">
-              </a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo2.png" alt="" class="img-fluid" style="max-height: 50px;">
+                  </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -42,30 +44,89 @@
               </div>
             </div>
           </nav>
-        <div class="container mt-4">
-            <h1>Snacks</h1>
-    
-    <div class="recipe">
-        <h3>Fruit Salad</h3>
-        <img src="img/fruit_salad.jpg" alt="Fruit Salad" class="img-fluid">
-        <h4>Ingredients:</h4>
-        <ul>
-    <li>1, chopped Apple</li><li>1, sliced Banana</li><li>1 cup Grapes</li><li>1, segmented Orange</li><li>1 tbsp Honey</li><li>1 tsp Lemon juice</li></ul><h4>Steps:</h4><ol><li>In a large bowl, combine the apple, banana, grapes, and orange.</li><li>In a small bowl, whisk together the honey and lemon juice.</li><li>Pour the dressing over the fruit and toss to combine.</li><li>Serve immediately.</li></ol></div>
-    <div class="recipe">
-        <h3>Vegetarian Quesadilla</h3>
-        <img src="img/quesadilla.jpg" alt="Vegetarian Quesadilla" class="img-fluid">
-        <h4>Ingredients:</h4>
-        <ul>
-    <li>1 Tortilla</li><li>1/2 cup, shredded Cheddar cheese</li><li>1/4 cup, cooked Black beans</li><li>1/4 cup, cooked Corn</li><li>1/4, chopped Bell pepper</li><li>1 tbsp Olive oil</li></ul><h4>Steps:</h4><ol><li>Heat the olive oil in a pan over medium heat.</li><li>Place the tortilla in the pan and sprinkle half of the cheese on one half of the tortilla.</li><li>Add the black beans, corn, and bell pepper on top of the cheese.</li><li>Sprinkle the remaining cheese over the vegetables.</li><li>Fold the tortilla in half and cook until the cheese is melted and the tortilla is golden brown.</li><li>Cut into wedges and serve.</li></ol></div>
-    <div class="recipe">
-        <h3>Yogurt Parfait</h3>
-        <img src="img/yogurt.jpg" alt="Yogurt Parfait" class="img-fluid">
-        <h4>Ingredients:</h4>
-        <ul>
-    <li>1 cup Greek yogurt</li><li>1/2 cup Granola</li><li>1/2 cup Mixed berries</li><li>1 tbsp Honey</li></ul><h4>Steps:</h4><ol><li>In a glass or bowl, layer half of the Greek yogurt.</li><li>Add a layer of granola and mixed berries.</li><li>Drizzle with honey.</li><li>Repeat the layers with the remaining ingredients.</li><li>Serve immediately.</li></ol></div>
-        </div>
+    <div class="container mt-4">
+			<h1 class="text-center mb-4">Snacks</h1>
+			<div class="row g-4">
+				<div class="col-md-4 col-sm-6 col-12">
+					<div class="border p-3 rounded shadow-sm h-100">
+						<h3>Fruit Salad</h3>
+						<img src="img/fruit_salad.jpg" alt="Fruit Salad" class="img-fluid mb-2">
+						<h4>Ingredients:</h4>
+						<ul>
+                            <li>1, chopped Apple</li>
+                            <li>1, sliced Banana</li>
+                            <li>1 cup Grapes</li>
+                            <li>1, segmented Orange</li>
+                            <li>1 tbsp Honey</li>
+                            <li>1 tsp Lemon juice</li>
+                        </ul>
+                        <h4>Steps:</h4>
+                        <ol>
+                            <li>In a large bowl, combine the apple, banana, grapes, and orange.</li>
+                            <li>In a small bowl, whisk together the honey and lemon juice.</li>
+                            <li>Pour the dressing over the fruit and toss to combine.</li>
+                            <li>Serve immediately.</li>
+                        </ol>
+                    </div>
+				</div>
+			</div>
+		</div>
+	<div class="container mt-4">
+			<div class="row g-4">
+				<div class="col-md-4 col-sm-6 col-12">
+					<div class="border p-3 rounded shadow-sm h-100">
+						<h3>Vegetarian Quesadilla</h3>
+						<img src="img/quesadilla.jpg" alt="Vegetarian Quesadilla" class="img-fluid mb-2">
+						<h4>Ingredients:</h4>
+						<ul>
+                            <li>1 Tortilla</li>
+                            <li>1/2 cup, shredded Cheddar cheese</li>
+                            <li>1/4 cup, cooked Black beans</li>
+                            <li>1/4 cup, cooked Corn</li>
+                            <li>1/4, chopped Bell pepper</li>
+                            <li>1 tbsp Olive oil</li>
+                        </ul>
+                        <h4>Steps:</h4>
+                        <ol>
+                            <li>Heat the olive oil in a pan over medium heat.</li>
+                            <li>Place the tortilla in the pan and sprinkle half of the cheese on one half of the tortilla.</li>
+                            <li>Add the black beans, corn, and bell pepper on top of the cheese.</li>
+                            <li>Sprinkle the remaining cheese over the vegetables.</li>
+                            <li>Fold the tortilla in half and cook until the cheese is melted and the tortilla is golden brown.</li>
+                            <li>Cut into wedges and serve.</li>
+                        </ol>
+                    </div>
+				</div>
+			</div>
+		</div>
+	<div class="container mt-4">
+			<div class="row g-4">
+				<div class="col-md-4 col-sm-6 col-12">
+					<div class="border p-3 rounded shadow-sm h-100">
+						<h3>Yogurt Parfait</h3>
+						<img src="img/yogurt.jpg" alt="Yogurt Parfait" class="img-fluid mb-2">
+						<h4>Ingredients:</h4>
+						<ul>
+                            <li>1 cup Greek yogurt</li>
+                            <li>1/2 cup Granola</li>
+                            <li>1/2 cup Mixed berries</li>
+                            <li>1 tbsp Honey</li>
+                        </ul>
+                        <h4>Steps:</h4>
+                        <ol>
+                            <li>In a glass or bowl, layer half of the Greek yogurt.</li>
+                            <li>Add a layer of granola and mixed berries.</li>
+                            <li>Drizzle with honey.</li>
+                            <li>Repeat the layers with the remaining ingredients.</li>
+                            <li>Serve immediately.</li>
+                        </ol>
+                    </div>
+				</div>
+			</div>
+		</div>
     <div style="height: 100px;">
-    </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js">
+        </script>
     </body>
-    </html>
+</html>

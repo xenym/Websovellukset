@@ -13,7 +13,7 @@ body {
     color-scheme: dark;
 }
 .navbar-brand img {
-    width: 50px;}
+    width: 70px;}
 .navbar-nav {
     padding-right: 10px;
     text-align: justify;
@@ -26,3 +26,25 @@ body {
 .recipe img{
     width: 500px;
 }
+.alert-warning p {
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+    ul {
+    padding-left: 20px;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+    li {
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+.body {
+    padding-bottom: 500px;
+  }
+.footer {
+    margin-top: 100px;
+  }  
+
+  
+  

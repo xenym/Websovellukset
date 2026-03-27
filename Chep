@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Самый сочный рецепт</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; padding: 20px; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #d32f2f; text-align: center; font-size: 2.5em; text-transform: uppercase; }
+        .ingredients { background: #fff8e1; padding: 15px; border-left: 5px solid #ffc107; margin-bottom: 20px; }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Рецепт: Чепушилы</h1>
+    <p><em>Традиционное балканское блюдо для тех, кто понимает толк в мясе!</em></p>
+
+    <div class="ingredients">
+        <h2>Что понадобится:</h2>
+        <ul>
+            <li><strong>Говядина:</strong> 500 г (лучше лопатка)</li>
+            <li><strong>Баранина:</strong> 250 г (для сочности)</li>
+            <li><strong>Чеснок:</strong> 3 зубчика (мелко порубить)</li>
+            <li><strong>Паприка:</strong> 1 ч. л.</li>
+            <li><strong>Сода:</strong> 1/2 ч. л. (секрет мягкости!)</li>
+            <li><strong>Соль и черный перец:</strong> по вкусу</li>
+        </ul>
+    </div>
+
+    <h2>Как готовить:</h2>
+    <ol>
+        <li>Мясо пропустить через мясорубку дважды. Это важно для правильной текстуры!</li>
+        <li>Добавить специи, чеснок и соду. Тщательно вымешивать фарш руками минимум 10 минут.</li>
+        <li>Убрать мясо в холодильник на 3-4 часа (лучше на ночь).</li>
+        <li>Сформировать небольшие колбаски длиной 5-7 см.</li>
+        <li>Жарить на гриле или сковороде до румяной корочки со всех сторон.</li>
+    </ol>
+    
+    <p style="text-align: center; color: #777;">Приятного аппетита!</p>
+</div>
+
+</body>
+</html>
 
